@@ -1,28 +1,18 @@
-# Requirements
-
-- ROS 2
-  
-- Python 3.x
-
-- Arduino (for uploading code to the IMU)
-  
-- rclpy, sensor_msgs, geometry_msgs, pyserial
-
 ## Build & Run
     
-    ### Connect the IMU via USB and ensure it sends data in JSON format.
+  1. Connect the IMU via USB and ensure it sends data in JSON format.
     
-    ### Build:
+  2. Build:
 
-    git clone 
+    git clone https://github.com/ichsanyudika/Razor-IMU-9dof_RVIZ2.git
     
-    cd 
+    cd ~/Razor-IMU-9dof_RVIZ2
     
     colcon build
     
     source install/setup.bash
     
-    ### Launch:
+  3. Launch:
     
     ros2 launch imu_serial serial_imu_node.py
 
