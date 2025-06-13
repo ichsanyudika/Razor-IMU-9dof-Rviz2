@@ -3,10 +3,10 @@
 - ROS 2
   
 - Python 3.x
+
+- Arduino (for uploading code to the IMU)
   
 - rclpy, sensor_msgs, geometry_msgs, pyserial
-- 
-- Arduino (for uploading code to the IMU)
 
 ## Build & Run
     
