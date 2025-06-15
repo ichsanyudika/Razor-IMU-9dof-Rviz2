@@ -41,7 +41,7 @@ class IMUNode(Node):
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             imu_msg.header.frame_id = 'base_link'
 
-            # Euler data (in degrees), convert to radians
+            # Euler data (degrees), convert to radians
             roll = math.radians(data['roll'])
             pitch = math.radians(data['pitch'])
             yaw = math.radians(data['yaw'])
@@ -55,7 +55,7 @@ class IMUNode(Node):
                                               0.0, 0.02, 0.0,
                                               0.0, 0.0, 0.02]
 
-            # Acceleration (in m/s²)
+            # Acceleration (m/s²)
             imu_msg.linear_acceleration.x = float(data['accX'])
             imu_msg.linear_acceleration.y = float(data['accY'])
             imu_msg.linear_acceleration.z = float(data['accZ'])
@@ -71,7 +71,7 @@ class IMUNode(Node):
                                                    0.0, 0.05, 0.0,
                                                    0.0, 0.0, 0.05]
 
-            # Publishto ROS
+            # Publish to ROS
             self.publisher_.publish(imu_msg)
 
         except (json.JSONDecodeError, KeyError, ValueError):
