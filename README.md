@@ -1,6 +1,6 @@
 ## Build & Run
     
-  1. Connect the IMU via USB and ensure it sends data in JSON format.
+  1. Connect the IMU via USB.
     
   2. Build:
 
