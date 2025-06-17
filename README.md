@@ -4,9 +4,9 @@
     
   2. Build:
 
-    git clone https://github.com/ichsanyudika/Razor-IMU-9dof_RVIZ2.git
+    git clone https://github.com/ichsanyudika/Razor-IMU-9dof-Rviz2.git
     
-    cd ~/Razor-IMU-9dof_RVIZ2
+    cd ~/Razor-IMU-9dof-Rviz2
     
     colcon build
     
