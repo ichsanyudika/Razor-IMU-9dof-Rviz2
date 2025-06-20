@@ -18,7 +18,7 @@
 
     rviz2
     
-## Simulation:
+## Simulation
 
 [![Watch the video](https://img.youtube.com/vi/xpN31UG7EPU/hqdefault.jpg)](https://www.youtube.com/watch?v=xpN31UG7EPU)
 
