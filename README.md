@@ -18,4 +18,7 @@
 
     rviz2
     
-## Simulation: https://youtu.be/xpN31UG7EPU?si=Jq8nFUgI_UAlH3RD
+## Simulation:
+
+[![Watch the video](https://img.youtube.com/vi/xpN31UG7EPU/hqdefault.jpg)](https://www.youtube.com/watch?v=xpN31UG7EPU)
+
