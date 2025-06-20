@@ -1,4 +1,4 @@
-## Build & Run
+# Build & Run
     
   1. Connect the IMU via USB.
     
